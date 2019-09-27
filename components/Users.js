@@ -34,7 +34,7 @@ function dataDispatchToProps(dispatch) {
 const axiosGitHubGraphQL = axios.create({
     baseURL: 'https://api.github.com/graphql',
     headers: {
-        Authorization: 'bearer 2cdc2aa829e6a0fe455edaf962cdda54e923b505'
+        Authorization: 'bearer your_token'
     }
 });
 
