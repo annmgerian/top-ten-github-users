@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport Users from '../components/Users';\nimport { Provider } from 'react-redux';\nimport store from '../redux/store/index';\n\nconst Index = () => __jsx(Provider, {\n  store: store\n}, __jsx(Users, null));\n\nexport default Index;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { ADD_DATA, ADD_SUM } from '../constants/action-types';\n\nfunction addData(payload) {\n  // console.log(payload);\n  return {\n    type: ADD_DATA,\n    payload\n  };\n}\n\nfunction addSum(payload) {\n  return {\n    type: ADD_SUM,\n    payload\n  };\n}\n\nexport { addSum, addData };","map":null,"metadata":{},"sourceType":"module"}
